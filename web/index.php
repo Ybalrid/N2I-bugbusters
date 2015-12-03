@@ -12,6 +12,6 @@
 
     </body>
 </html>
-<script src="myscripts.js"></script>
+<script src="script.js"></script>
 <?php
 
