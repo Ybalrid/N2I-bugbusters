@@ -49,7 +49,16 @@
         <?php include("map.php");?>
 
         <div id="about">
-        
+        Nous sommes une équipe d'étudiants de l'ESIEA participant à la Nuit de l'Info 2015.
+        Après les divers événements ayant eu lieu dans le monde récemment, nous avons imaginé et développé une web application simple et pratique 
+        pour les cas d'extrême urgence.
+        <div>
+            <a href="http://kernel.panic.systems"><img id="logo" width="100px" height="100px" src="http://kernel.panic.systems/img/logoheader.png"/></a>
+            <a href="http://www.esiea.fr"><img id="logo" src="http://www.esiea.fr/wp-content/uploads/2014/09/Logo-ESIEA.jpg"/></a>
+            <a href="http://www.intechinfo.fr"><img id="logo" src="https://candidature.intechinfo.fr/Content/images/INTECHINFO/logo.png"/></a>
+
+        </div>
+    </div>        
         </div>
 </div>
     </body>
