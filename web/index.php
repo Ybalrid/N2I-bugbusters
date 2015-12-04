@@ -2,34 +2,33 @@
 <html>
 
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>
-    		<?php 
-    			echo "BugBusters";
-    		?>
-    	</title>
+<?php include ("head.php");?>
     </head>
-   
+
     <body>
+        <header>
+        <h1>Crisis Signalement</h1>
+</header>        
 
-        <h1><?php echo "Hello nuit de l'info" ?></h1>
+<?php include ("carousel.php"); ?>
 
-        <p>My first paragraph.</p>
 
-        <p>My first paragraph.</p>
-       
-        <p>My first paragraph Test.</p>
-        
-    </body>
-   
+        <nav class="">
+            <button type="sig_button" onclick="location.href='./signaler.php'">Signaler un incident</button>
+            <button type="sig_button" onclick="location.href='./safe.php'">Signaler en sécurité</button>
+        </nav>
+
     <footer>
-    	<nav>
+        <nav>
             <ul>
                 <li><a href="contact.php">Nous contacter</a></li>
             </ul>
         </nav>
-   
+
     </footer>
+
+    </body>
+
 </html>
 <!-- <script src="script.js"></script> -->
 <?php
