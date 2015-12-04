@@ -2,30 +2,29 @@
 <html>
 
     <head>
-<?php include ("head.php");?>
+        <?php include ("head.php");?>
     </head>
 
     <body>
         <header>
-        <h1>Crisis Signalement</h1>
-</header>        
+            <h1>Crisis Signalement</h1>
+        </header>        
 
-<?php include ("carousel.php"); ?>
+        <?php include ("carousel.php"); ?>
 
-
-        <nav class="">
-            <button type="sig_button" onclick="location.href='./signaler.php'">Signaler un incident</button>
-            <button type="sig_button" onclick="location.href='./safe.php'">Signaler en sécurité</button>
+        <nav class="sig_buttons">
+            <button class="sig_button" onclick="location.href='./signaler.php'">Signaler un incident</button>
+            <button class="sig_button" onclick="location.href='./safe.php'">Signaler en sécurité</button>
         </nav>
 
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="contact.php">Nous contacter</a></li>
-            </ul>
-        </nav>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="contact.php">Nous contacter</a></li>
+                </ul>
+            </nav>
 
-    </footer>
+        </footer>
 
     </body>
 
