@@ -59,7 +59,7 @@ if(isset($_POST))
     $pcom = $commentary;
     $prepared->execute();
     
-    echo "<strong>VOTRE SIGNALEMENT GÉOLOCALISÉ A BIEN ÉTÉ PRIS EN COMPTE</strong>"
+    echo "<strong>VOTRE SIGNALEMENT GÉOLOCALISÉ A BIEN ÉTÉ PRIS EN COMPTE</strong>";
 }
 
 ?>
