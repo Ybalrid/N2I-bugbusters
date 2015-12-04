@@ -8,6 +8,10 @@ $type_statement = $bdd->query("SELECT * FROM `Types`");
 
 ?>
 <form action="do_signal.php" method="post" id="geoform">
+
+<input type="hidden" name="lat" value="0.0" id="theLat">
+<input type="hidden" name="long" value="0.0" id="theLong">
+
 <?php
 while($type = $type_statement->fetch())
 {
@@ -19,6 +23,9 @@ while($type = $type_statement->fetch())
 
 
 ?>
+
+<p>Commentaires optionels:</p>
+<textarea name="coms"></textarea>
 </form>
 <?php
 include ("geoloc.php");
