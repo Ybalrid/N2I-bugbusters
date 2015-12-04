@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 04, 2015 at 01:32 AM
+-- Generation Time: Dec 04, 2015 at 05:47 AM
 -- Server version: 10.0.22-MariaDB-log
 -- PHP Version: 7.0.0
 
@@ -26,13 +26,22 @@ SET time_zone = "+00:00";
 -- Table structure for table `Signalements`
 --
 
+DROP TABLE IF EXISTS `Signalements`;
 CREATE TABLE `Signalements` (
   `ID` int(11) NOT NULL,
   `Date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `GPS_Lat` double NOT NULL,
   `GPS_Long` double NOT NULL,
+  `SigType` int(11) NOT NULL,
   `Comments` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `Signalements`
+--
+
+INSERT INTO `Signalements` (`ID`, `Date`, `GPS_Lat`, `GPS_Long`, `SigType`, `Comments`) VALUES
+(1, '2015-12-04 05:39:06', 48.8138021, 2.3769392, 1, 'none');
 
 -- --------------------------------------------------------
 
@@ -40,6 +49,7 @@ CREATE TABLE `Signalements` (
 -- Table structure for table `Types`
 --
 
+DROP TABLE IF EXISTS `Types`;
 CREATE TABLE `Types` (
   `ID` int(11) NOT NULL,
   `Name` varchar(255) NOT NULL
@@ -77,7 +87,7 @@ ALTER TABLE `Types`
 -- AUTO_INCREMENT for table `Signalements`
 --
 ALTER TABLE `Signalements`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `Types`
 --
