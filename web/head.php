@@ -5,3 +5,6 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="style.css">
 
+
+<meta name = "viewport" content = "width = device-width">
+<meta name = "viewport" content = "width = 320">

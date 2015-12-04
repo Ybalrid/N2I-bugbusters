@@ -13,8 +13,8 @@
         <?php include ("carousel.php"); ?>
 
         <nav class="sig_buttons">
-            <button class="sig_button" onclick="location.href='./signaler.php'">Signaler un incident</button>
-            <button class="sig_button" onclick="location.href='./safe.php'">Signaler en sécurité</button>
+            <button class="red" onclick="location.href='./signaler.php'">Signaler un incident</button>
+            <button class="green" onclick="location.href='./safe.php'">Signaler en sécurité</button>
         </nav>
 
         <footer>
