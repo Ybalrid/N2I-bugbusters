@@ -63,3 +63,11 @@ if(isset($_POST))
 }
 
 ?>
+
+
+<script>
+    window.setTimeout(function()
+    {
+        window.location.href = "index.php";
+    }, 1000);
+</script>
