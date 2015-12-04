@@ -23,6 +23,9 @@ while($type = $type_statement->fetch())
 
 
 ?>
+
+<p>Commentaires optionels:</p>
+<textarea name="coms"></textarea>
 </form>
 <?php
 include ("geoloc.php");
