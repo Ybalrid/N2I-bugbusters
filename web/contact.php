@@ -11,7 +11,7 @@
     </head>
     <body>
 
-        <h1><?php echo "Nous contactez" ?></h1>
+        <h1><?php echo "Nous contacter" ?></h1>
 
 
         <p>Me contacter ici</p>

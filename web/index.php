@@ -25,7 +25,7 @@
     <footer>
     	<nav>
             <ul>
-                <li><a href="contact.php">Nous contactez</a></li>
+                <li><a href="contact.php">Nous contacter</a></li>
             </ul>
         </nav>
    
