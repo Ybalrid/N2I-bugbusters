@@ -27,7 +27,7 @@
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="#monCarousel">What is BBCM ?</a></li>
 							<li><a href="#map">Watch the map !</a></li>
-							<li><a href="about.php">About us</a></li>
+							<li><a href="#about">About us</a></li>
 						</ul>
 					</div>
 				
@@ -48,15 +48,10 @@
 
         <?php include("map.php");?>
 
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href="contact.php">Nous contacter</a></li>
-                </ul>
-            </nav>
-
-        </footer>
-
+        <div id="about">
+        
+        </div>
+</div>
     </body>
 
 </html>
