@@ -9,12 +9,11 @@ Author     : Mika
  */
 
 body {
-    background-color: lightblue;
+    background-color: white;
 }
 
 h1 {
-    color: navy;
-    margin-left: 20px;
+    text-align:center;
 }
 
 .carousel-inner > .item > img,
@@ -29,10 +28,23 @@ h1 {
     margin:15px;
 }
 
-button
+.big_button
 {
     text-align:center;
+    font-weight: bold;
+    color:white;
     width:49%;
-    border:1px solid black;
     min-height: 100px;
+    background-color:white;
+    border-radius:3px;
+}
+
+.red
+{
+    background-color: red;
+}
+
+.green
+{
+    background-color: green;
 }

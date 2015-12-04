@@ -6,12 +6,21 @@ $bdd = getDatabase();
 $type_statement = $bdd->query("SELECT * FROM `Types`");
 
 
+?>
+<form action="do_signal.php" method="post" id="geoform">
+<?php
 while($type = $type_statement->fetch())
 {
 ?>
-    <button onclick="location.href='do_signal.php?type=<?php echo $type['ID'];?>'" >   
-<?php echo $type['Name']; ?>
-</button>
+    <input value="<?php echo $type['Name']; ?>" type="submit" name="<?php echo $type['ID'];?>">   
+
 <?php
 }
+
+
+?>
+</form>
+<?php
+include ("geoloc.php");
+
 ?>
